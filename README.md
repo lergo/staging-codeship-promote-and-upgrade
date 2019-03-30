@@ -1,2 +1,2 @@
-# staging-codeship-promote-and-upgrade
-committing code with specified build number promotes that build number to latest and upgrades staging
+# production-codeship-promote-and-upgrade
+promotes artifacts/build-number to latest  and runs upgrade in staging (manually changing build-number)

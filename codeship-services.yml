@@ -1,0 +1,5 @@
+staging-promote-upgrade:
+  build:
+    image: staging-promote-upgrade
+    dockerfile: Dockerfile
+  encrypted_env_file: env.encrypted

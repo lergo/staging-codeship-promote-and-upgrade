@@ -1,0 +1,6 @@
+- name: promote-staging-to-latest
+  service: staging-promote-upgrade
+  command: bash -c /app/lergo/staging-promote-upgrade/scripts/promote_staging_to_latest.sh
+- name: upgrade_staging
+  service: staging-promote-upgrade
+  command: bash -c /app/lergo/staging-promote-upgrade/scripts/upgrade_staging.sh
