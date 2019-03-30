@@ -4,7 +4,9 @@ set -e
 
 
 # build_id is the build that will be promoted and must be set before each use!
-export build_id=fill_in_the_build_number
+# export build_id=fill_in_the_build_number
+export build_id=2014
+
 echo check that build number,  $build_id  is an integer
 if [[ ! "$build_id" =~ ^[0-9]+$ ]]; then 
   exit 1
